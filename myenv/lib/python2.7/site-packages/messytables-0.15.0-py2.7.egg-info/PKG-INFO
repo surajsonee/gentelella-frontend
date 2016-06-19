@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: messytables
+Version: 0.15.0
+Summary: Parse messy tabular data in various formats
+Home-page: http://okfn.org
+Author: Open Knowledge Foundation
+Author-email: info@okfn.org
+License: MIT
+Description: 
+        Tabular data as published on the web is often not well formatted
+        and structured. Messytables tries to detect and fix errors in the
+        data. Typical examples include:
+        
+        * Finding the header of a table when there are explanations and
+          text fragments in the first few rows of the table.
+        * Guessing the type of columns in CSV data.
+        
+        This library provides data structures and some heuristics to
+        fix these problems and read a wide number of different tabular
+        abominations.
+        
+        See the full documentation at: http://messytables.readthedocs.org
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
